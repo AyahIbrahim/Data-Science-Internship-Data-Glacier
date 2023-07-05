@@ -1,1 +1,2 @@
-# In this repo, all my internship work progress for Data Glacier will be shared. There will be 12 weeks in this repo. 
+# Data Science Internship @ Data Glacier
+## In this repo, all my internship work progress will be shared. There will be a total of 12 weeks in this repo. 
