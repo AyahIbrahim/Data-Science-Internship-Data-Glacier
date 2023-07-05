@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happiness Prediction</title>
+</head>
+<body>
+    <h1>Happiness Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="happiness_rank">Happiness Rank:</label>
+        <input type="text" id="happiness_rank" name="Happiness Rank" required><br><br>
+        
+        <label for="lower_ci">Lower Confidence Interval:</label>
+        <input type="text" id="lower_ci" name="Lower Confidence Interval" required><br><br>
+        
+        <label for="upper_ci">Upper Confidence Interval:</label>
+        <input type="text" id="upper_ci" name="Upper Confidence Interval" required><br><br>
+        
+        <label for="gdp_per_capita"-**--5*>GDP per Capita:</label>
+        <input type="text" id="gdp_per_capita" name="Economy (GDP per Capita)" required><br><br>
+        
+        <label for="family">Family:</label>
+        <input type="text" id="family" name="Family" required><br><br>
+        
+        <label for="life_expectancy">Life Expectancy:</label>
+        <input type="text" id="life_expectancy" name="Health (Life Expectancy)" required><br><br>
+        
+        <label for="freedom">Freedom:</label>
+        <input type="text" id="freedom" name="Freedom" required><br><br>
+        
+        <label for="government_corruption">Trust (Government Corruption):</label>
+        <input type="text" id="government_corruption" name="Trust (Government Corruption)" required><br><br>
+        
+        <label for="generosity">Generosity:</label>
+        <input type="text" id="generosity" name="Generosity" required><br><br>
+        
+        <label for="dystopia_residual">Dystopia Residual:</label>
+        <input type="text" id="dystopia_residual" name="Dystopia Residual" required><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+    
+    {% if prediction_text %}
+    <h2>{{ prediction_text }}</h2>
+    {% endif %}
+</body>
+</html>
