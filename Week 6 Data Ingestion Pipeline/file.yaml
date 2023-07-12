@@ -1,0 +1,26 @@
+file_type: csv
+dataset_name: testfile
+file_name: world_population
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Rank
+    - CCA3
+    - Country Name
+    - Capital
+    - Continent Name
+    - 2022 Population
+    - 2020 Population
+    - 2015 Population
+    - 2010 Population
+    - 2000 Population
+    - 1990 Population
+    - 1980 Population
+    - 1970 Population
+    - Area km²
+    - Density per km²
+    - Growth Rate
+    - World Population Percentage
+
